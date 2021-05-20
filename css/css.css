@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --color1: #7b9b99;
+    --color2: rgb(255, 255, 255);
+    --color3: #e7e7e7;
+    --color4: rgb(0, 0, 0);
+    --color5: rgb(110, 105, 105);
+}
+body{
+    background-color: var(--color1);
+
+}
+
+.cajatexto1{
+    width: 25em;
+    height: 38em;
+    margin-left: 35em;
+    margin-top: 3em;
+    background-color: var(--color2);
+    -webkit-box-shadow: -1px 3px 101px -4px rgba(36,35,36,0.41);
+-moz-box-shadow: -1px 3px 101px -4px rgba(36,35,36,0.41);
+box-shadow: -1px 3px 101px -4px rgba(36,35,36,0.41);
+    display: flex;
+    flex-direction: column;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-left: 3em;
+    box-sizing: border-box;
+    border-radius: 0.7em;
+}
+.name{
+
+    width: 27em;
+    height: 5em;
+    margin-bottom: 2.5em;
+    padding-left: 1em;
+    font-size: 0.7em;
+    background-color: var(--color3);
+    border: none;
+
+}
+.Mail{
+
+    width: 27em;
+    height: 5em;
+    margin-bottom: 2.5em;
+    padding-left: 1em;
+    font-size: 0.7em;
+    background-color:var(--color3);
+    border: none;
+}
+.titulo{
+    font-size: 2em;
+    color:var(--color4);
+    font-weight:bolder;
+    
+}
+.subtitulo{
+    margin-top: 1em;
+    font-size: 0.7em;
+    color:var(--color4);
+    font-weight:bolder;
+    padding-bottom: 2em;
+}
+.Message{
+    width: 25em;
+    height: 10em;
+    padding: 1.5em;
+    font-size: 0.7em;
+    background-color: var(--color3);
+    border: none;
+    resize: none;
+}
+.boton{
+    background-color: var(--color5);
+    width: 5em;
+    height: 2.1em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+    border-radius: 0.3em;
+    
+}
+.submit{
+    background-color: var(--color5);
+    color: var(--color2);
+    width: 4em;
+    height: 3em;
+    font-size: 0.7em;
+    border:0;
+    border-radius: 0.1em;
+    border-bottom-style: none;
+    border-radius: 0.7em;
+    cursor: pointer;
+}
+img{
+    width: 1.9em;
+    height: 1.9em;
+    cursor: pointer;
+}
